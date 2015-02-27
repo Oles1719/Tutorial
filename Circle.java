@@ -7,8 +7,7 @@ public class Circle extends Shape {
     private double radius;
     public Circle(double x1,double y1,double x2,double y2){
         setRadius(x1, y1, x2, y2);
-        //add
-        // hh
+    
     }
     public void setRadius(double x1,double y1,double x2,double y2){
         if((x1-x2)==0){
